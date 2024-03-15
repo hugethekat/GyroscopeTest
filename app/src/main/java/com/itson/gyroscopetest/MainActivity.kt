@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     private var displayedY: Float = 0.0f
     private var displayedZ: Float = 0.0f
 
-    private var threshold: Float = 0.005f
+    private var threshold: Float = 0.0005f
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
